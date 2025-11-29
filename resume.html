@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>李家甄｜個人履歷</title>
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f7f7f7;
+      color: #333;
+      line-height: 1.6;
+    }
+    .container {
+      width: 90%;
+      max-width: 800px;
+      margin: 40px auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 18px rgba(0,0,0,0.08);
+    }
+    h1 {
+      font-size: 32px;
+      margin: 0;
+    }
+    .contact {
+      color: #555;
+      margin-top: 4px;
+    }
+    .section {
+      margin-top: 32px;
+    }
+    .section h3 {
+      border-left: 4px solid #4c7fff;
+      padding-left: 10px;
+      font-size: 22px;
+      margin-bottom: 15px;
+    }
+    .exp-item, .skill-item, .edu-item {
+      margin-bottom: 18px;
+    }
+    .title {
+      font-weight: bold;
+      font-size: 18px;
+    }
+    .muted {
+      color: #777;
+      font-size: 14px;
+    }
+    ul {
+      margin: 8px 0 0 20px;
+    }
+    .header-flex {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+    .name-contact {
+      display: flex;
+      align-items: center;
+    }
+    .name-contact img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 2px solid #4c7fff;
+      margin-right: 15px;
+    }
+    .print-btn {
+      padding: 8px 14px;
+      border: none;
+      background: #4c7fff;
+      color: #fff;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header-flex">
+      <div class="name-contact">
+        <img src="IMG/me.JPG" alt="個人照">
+        <div>
+          <h1>李家甄</h1>
+          <div class="contact">｜　✉️ jazzzzzenli0522@gmail.com</div>
+        </div>
+      </div>
+      <button onclick="window.print()" class="print-btn">匯出 PDF</button>
+    </div>
+
+    <!-- 學歷 -->
+    <section class="section" id="education">
+      <h3>學歷</h3>
+      <div class="edu-item">
+        <div class="title">亞洲大學 — 經營管理學系</div>
+        <div class="muted">在學中</div>
+      </div>
+    </section>
+
+    <!-- 技能 -->
+    <section class="section" id="skills">
+      <h3>技能</h3>
+      <div class="skill-item">
+        <ul>
+          <li>HTML / CSS / JavaScript 基礎網頁製作</li>
+          <li>團隊協作與溝通能力</li>
+          <li>時間管理與自主學習能力</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 經驗 -->
+    <section class="section" id="experience">
+      <h3>經驗 / 活動</h3>
+      <div class="exp-item">
+        <div class="title">高中排球比賽 — 球隊成員</div>
+        <div class="muted">高中期間</div>
+        <ul>
+          <li>參與高中排球隊訓練並代表班級或學校參賽。</li>
+          <li>負責接球與防守位置，具備團隊協作與臨場判斷能力。</li>
+          <li>透過訓練提升體能、配合度與壓力管理能力。</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 未來願景 -->
+    <section class="section" id="vision">
+      <h3>未來願景</h3>
+      <div class="vision-item">
+        <ul>
+          <li>希望能在大學期間累積更多實作與專案經驗，強化網頁前端與資料分析能力。</li>
+          <li>未來期望進入與企業管理、數位行銷或資訊應用相關的工作領域。</li>
+          <li>持續培養跨領域能力，將管理思維與科技工具結合，提升自身競爭力。</li>
+        </ul>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
